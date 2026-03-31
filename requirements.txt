@@ -1,6 +1,4 @@
 streamlit>=1.40
-pandas>=2.2
-numpy>=1.26
 openpyxl>=3.1
 pyarrow>=15.0
 plotly>=5.24
@@ -10,3 +8,10 @@ jupyter>=1.1
 notebook>=7.2
 jupyterlab>=4.2
 nbconvert>=7.16
+seaborn
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+catboost>=1.2.0
+optuna>=3.6.0
+matplotlib>=3.8.0
