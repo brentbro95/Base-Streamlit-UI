@@ -181,3 +181,4 @@ def get_rule(row):
 gdf['calculated_value'] = gdf.apply(get_rule, axis=1)
 
 print(gdf[['region_name', 'date', 'category', 'calculated_value']].head())
+#

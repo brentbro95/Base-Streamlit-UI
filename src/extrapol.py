@@ -1,7 +1,7 @@
 
 # Пример функции экстраполяции и интерполяции
 # Работает с датафреймом df
-
+#
 
 def fill_missing_by_interpolation(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
     """
